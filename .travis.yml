@@ -1,0 +1,17 @@
+---
+
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
+
+deploy:
+  provider: releases
+  api_key:
+    secure: [API-KEY]
+  file: build/libs/server-plugin-two-year-anniversary-party-blocks.jar
+  on:
+    repo: konstructs/server-plugin-two-year-anniversary-party-blocks
+    tags: true
+    jdk: openjdk7
