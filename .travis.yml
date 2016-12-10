@@ -1,0 +1,15 @@
+---
+
+language: java
+jdk:
+  - openjdk7
+
+deploy:
+  provider: releases
+  api_key:
+    secure: Wz+u1l4wEus6F7wkXVULwm9GM6xjNN58TTQlWYZDwa3eeu6HzJOLesW2JbYf3bgIYVH0zLJCLT8Lnj+dGWwNJjGF3t0o0IxKqsj5MjfieP30hvJq2bxaBqiwJkDc9wVo1RioObYjS2DW8IbZvAjxFEfsp0nbOLy9uS9YCFCGLXsLTNH2AL4w0Ca2J3yZCv+hYSZ9LGXK9iANsgS7qwSk28DoosavLWZ6IZna7rLEJhdKIkEpGLxpxDWpxveQJxg+yGduhuYkwUXzDVIaBmnljYr75v/QQMw1BMYRTC607JXC8ECYKQRGSC2LH1mSQTtNFM2mwK5+79wSojWF6fvne+ttVmW9xi9OCj7rSBpSdn67OF7J9lcPD58Z/uLp5KL3ITdCNrvNk0bjxpxpMzHvj6tlw7kB5vCwGKp/dGRm0FmCL/1oQqULa6p+JX0uy2TIotCHCA6ho4+M1N8x3ZRnapdBK1K5TskUzspJUyctcN8Ikb847+GLpsqwAUpLsmBoiFI7qVuGpfHYl0qJ42Mgpl7YQR3Of+joxj73dTgWqb5LQ22KI+PqapYRB5WCg67t6g1Z0znGNguX6w6jwoyOgn9syxGOM16blTCI4HjHT1Y6c5gUC5D93AbOn/0uwYE5hEfJgTccf0eAIKVmvf17t6qLmJ/2o6JwV0JcknDD2cQ=
+  file: build/libs/server-plugin-two-year-anniversary-party-blocks.jar
+  on:
+    repo: konstructs/server-plugin-two-year-anniversary-party-blocks
+    tags: true
+    jdk: openjdk7
